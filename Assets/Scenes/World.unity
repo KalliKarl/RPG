@@ -10686,7 +10686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11442714, guid: 55c4dc591640dea4691b79d07c77188e, type: 3}
       propertyPath: daySpeedMultiplier
-      value: 0.5
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 11442714, guid: 55c4dc591640dea4691b79d07c77188e, type: 3}
       propertyPath: cloudRotationSpeed
