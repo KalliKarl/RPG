@@ -12634,17 +12634,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d09eae201c142c14e830991bbf1dc8b7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 532.6007
+      value: 582.141
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d09eae201c142c14e830991bbf1dc8b7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.95
+      value: 1.949
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d09eae201c142c14e830991bbf1dc8b7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 78.3101
+      value: 55.972
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d09eae201c142c14e830991bbf1dc8b7,
         type: 3}
@@ -12690,6 +12690,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Varil
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d09eae201c142c14e830991bbf1dc8b7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d09eae201c142c14e830991bbf1dc8b7, type: 3}
