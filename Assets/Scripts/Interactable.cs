@@ -7,8 +7,13 @@ public class Interactable : MonoBehaviour {
     Transform player;
     bool hasInteracted = false;
     public Transform interactionTransform;
+    public Item item;
+
+
     public virtual void Interact() {
         // this method is meant to be overwritten
+        Debug.Log("has interract with =" + transform.name);
+        PickUp();
     }
 
     void Update() {
@@ -16,6 +21,7 @@ public class Interactable : MonoBehaviour {
             float distance = Vector3.Distance(player.position, interactionTransform.position);
             if (distance <= radius) {
                 Interact();
+                
                 hasInteracted = true;
             }
         }
@@ -38,5 +44,14 @@ public class Interactable : MonoBehaviour {
         }
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(interactionTransform.position, radius);
+    }
+    void PickUp() {
+
+        Debug.Log("picking up item" + item.name);
+        bool wasPickedUp = Inventory.instance.Add(item);
+        if (wasPickedUp) {
+            Destroy(gameObject);
+        }
+        
     }
 }

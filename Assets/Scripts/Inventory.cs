@@ -16,12 +16,16 @@ public class Inventory : MonoBehaviour{
         instance = this;
     }
     #endregion
+
+    public delegate void OnItemChanged();
+    public OnItemChanged onItemChangedCallBack;
     public int space = 20;
 
     public List<Item> items = new List<Item>();
     public bool Add(Item item)
     {
-        if (item.isDefaultItem != false){
+        Debug.Log("ADD Fonksiyonu");
+        if (item.isDefaultItem == true){
             Debug.Log("OK Not Default Item  its ");
             if (items.Count >= space){
                 Debug.Log("ERROR ! Not enough room.");
@@ -30,13 +34,17 @@ public class Inventory : MonoBehaviour{
             else {
                 Debug.Log("OK item Added = " + item);
                 items.Add(item);
+                if(onItemChangedCallBack != null)
+                onItemChangedCallBack.Invoke();
             }
         }
+        Debug.Log("Defaultmuş");
         return true;
     }
 
     public void Remove(Item item){
         Debug.Log("OK item removed = " + item);
+
         items.Remove(item);
     }
 }

@@ -21,7 +21,7 @@ public class PlayerControl : MonoBehaviour {
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, 100, movementMask)) {
                 motor.MoveToPoint(hit.point);
-                Debug.Log("we hit" + hit.collider.name + hit.point);
+                // Debug.Log("we hit" + hit.collider.name + hit.point);
                 // move our player to what we hit
 
                 // stop focusing any objects
