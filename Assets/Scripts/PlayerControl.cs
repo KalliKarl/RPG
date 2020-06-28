@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.EventSystems;
 using UnityEngine;
 
 public class PlayerControl : MonoBehaviour {
@@ -16,6 +15,13 @@ public class PlayerControl : MonoBehaviour {
     }
 
     void Update() {
+
+
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
+
+
         if (Input.GetMouseButtonDown(0)) {
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
