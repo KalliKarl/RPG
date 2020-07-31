@@ -1,6 +1,5 @@
 ﻿
 using UnityEngine;
-using UnityScript.Scripting.Pipeline;
 
 public class InventoryUI : MonoBehaviour
 {
