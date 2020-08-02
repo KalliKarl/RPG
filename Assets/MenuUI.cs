@@ -21,7 +21,6 @@ public class MenuUI : MonoBehaviour
             menuUI.SetActive(!menuUI.activeSelf);
 
         }
-        
     }
     public void SetVolume(float volume) {
         Debug.Log(volume);

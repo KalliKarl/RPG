@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a34532deb1dbe045a4af68f13370d2d, type: 3}
-  m_Name: Shield16
+  m_Name: New Equipment
   m_EditorClassIdentifier: 
-  name: Shield16
-  icon: {fileID: 21300000, guid: 8f6e252327513e34297954df4b14e6a5, type: 3}
+  name: New Item
+  icon: {fileID: 21300000, guid: e33a38a6a9e2f1a4a929891b1200f7eb, type: 3}
   isDefaultItem: 0
-  equipSlot: 1
-  armorModifier: 8
+  equipSlot: 6
+  armorModifier: 5
   damageModifier: 0
