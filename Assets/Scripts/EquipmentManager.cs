@@ -1,6 +1,7 @@
 ﻿using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public class EquipmentManager : MonoBehaviour
@@ -14,6 +15,9 @@ public class EquipmentManager : MonoBehaviour
     #endregion
 
     Equipment[] currentEquipment;
+    public Transform equipParents;
+
+    EquipmentSlots[] eSlots;
 
     public delegate void OnEquipmentChanged(Equipment newItem, Equipment oldItem);
     public OnEquipmentChanged onEquipmentChanged;
@@ -23,6 +27,8 @@ public class EquipmentManager : MonoBehaviour
         inventory = Inventory.instance;
         int numSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
         currentEquipment = new Equipment[numSlots];
+
+        eSlots = equipParents.GetComponentsInChildren<EquipmentSlots>();
     }
 
     public void Equip(Equipment newItem) {
@@ -39,7 +45,7 @@ public class EquipmentManager : MonoBehaviour
         if (onEquipmentChanged != null) {
 
             onEquipmentChanged.Invoke(newItem,oldItem);
-
+            eSlots[slotIndex].AddItem(newItem);
         }
     }
     public void Unequip(int slotIndex) {
@@ -52,6 +58,7 @@ public class EquipmentManager : MonoBehaviour
             if (onEquipmentChanged != null) {
 
                 onEquipmentChanged.Invoke(null, oldItem);
+               
 
             }
 

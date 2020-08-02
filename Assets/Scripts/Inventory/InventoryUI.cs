@@ -6,7 +6,6 @@ public class InventoryUI : MonoBehaviour
     public Transform itemParents;
     public GameObject inventoryUI;
 
-
     Inventory inventory;
 
     InventorySlot[] slots;
@@ -15,9 +14,8 @@ public class InventoryUI : MonoBehaviour
     {
         inventory = Inventory.instance;
         inventory.onItemChangedCallBack += UpdateUI;
-
+        
         slots = itemParents.GetComponentsInChildren<InventorySlot>();
-
     }
 
     // Update is called once per frame
@@ -42,5 +40,7 @@ public class InventoryUI : MonoBehaviour
                 slots[i].ClearSlot();
             }
         }
+
+        
     }
 }
