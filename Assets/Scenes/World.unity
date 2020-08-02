@@ -7217,6 +7217,7 @@ Transform:
   m_PrefabInstance: {fileID: 2129619890}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &484477191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7356,6 +7357,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2687f176b3e2a99469ab0cf807ccb919, type: 3}
+=======
+>>>>>>> parent of 19917d4... game-31-07-2020-16-23
 =======
 >>>>>>> parent of 19917d4... game-31-07-2020-16-23
 --- !u!4 &489535192 stripped
@@ -8833,6 +8836,9 @@ Transform:
   - {fileID: 1312550275}
 =======
   - {fileID: 2046120935}
+<<<<<<< HEAD
+>>>>>>> parent of 19917d4... game-31-07-2020-16-23
+=======
 >>>>>>> parent of 19917d4... game-31-07-2020-16-23
   m_Father: {fileID: 148732175}
   m_RootOrder: 2
@@ -17506,6 +17512,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1138366283}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1138366285 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1678841851965742, guid: 144403e0e442d2a448335e0c845d665b,
@@ -17546,6 +17553,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 147820602}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 19917d4... game-31-07-2020-16-23
 --- !u!1 &1148969743
 GameObject:
   m_ObjectHideFlags: 0
@@ -27172,6 +27181,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 353c197d58a213c4caf8d83ce2caf528, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1154cf6ac27b2f45b4ae35582e7e363, type: 3}
+<<<<<<< HEAD
 --- !u!1 &1821908180
 GameObject:
   m_ObjectHideFlags: 0
@@ -27249,6 +27259,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821908180}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> parent of 19917d4... game-31-07-2020-16-23
 --- !u!4 &1823531303 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4383882971595202, guid: e1154cf6ac27b2f45b4ae35582e7e363,
@@ -29880,6 +29892,7 @@ Transform:
   m_PrefabInstance: {fileID: 747015030}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &2041796020
 GameObject:
   m_ObjectHideFlags: 0
@@ -29921,10 +29934,98 @@ RectTransform:
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &2041796022
 MonoBehaviour:
+=======
+--- !u!4 &2042674191 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4524486647388044, guid: 5fb4dbc1b7c07b9418845eb61970d9df,
+    type: 3}
+  m_PrefabInstance: {fileID: 1341448742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2046120934
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 614241318}
+    m_Modifications:
+    - target: {fileID: 1678841851965742, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_Name
+      value: Sword Of Destiny
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678841851965742, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678841851965742, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -57.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3928579
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 144403e0e442d2a448335e0c845d665b, type: 3}
+--- !u!4 &2046120935 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4202655646031778, guid: 144403e0e442d2a448335e0c845d665b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2046120934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2046120936 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1678841851965742, guid: 144403e0e442d2a448335e0c845d665b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2046120934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2046120938
+BoxCollider:
+>>>>>>> parent of 19917d4... game-31-07-2020-16-23
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2041796020}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -29968,6 +30069,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &2041796023
+=======
+  m_GameObject: {fileID: 2046120936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.92379564, y: 0.8136058, z: 1.1716423}
+  m_Center: {x: -0.0026062727, y: -0.0029441565, z: 0.00088205934}
+--- !u!114 &2046120941
+>>>>>>> parent of 19917d4... game-31-07-2020-16-23
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
